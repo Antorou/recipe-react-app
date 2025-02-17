@@ -1,0 +1,37 @@
+.recipe-card {
+  width: 350px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer; /* Ajout du curseur pointer pour l'interaction */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition douce */
+}
+
+.recipe-card:hover {
+  transform: translateY(-5px); /* Légère translation vers le haut au survol */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* Ombre plus forte au survol */
+}
+
+.recipe-card-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.recipe-card h3 {
+  margin: 8px 0;
+  color: #000;
+  font-size: 1.25rem; /* Augmenter légèrement la taille de la police */
+}
+
+.recipe-card p {
+  color: #777;
+  font-size: 0.875rem; /* Taille plus petite pour les détails comme la difficulté ou les temps */
+  margin: 4px 0;
+}
+
+a {
+  text-decoration: none;
+}

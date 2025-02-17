@@ -1,0 +1,25 @@
+/* Conteneur global */
+.recipe-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #e9e9e9;
+  min-height: 100vh;
+}
+
+.recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.recipe-list p {
+  font-size: 18px;
+  color: #777;
+  text-align: center;
+  width: 100%;
+}
