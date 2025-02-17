@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './styles/index.css';   // Vérifie le chemin et l'existence
-import App from './components/App'; // Vérifie le nom et l'emplacement
+import './styles/index.css';  
+import App from './components/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

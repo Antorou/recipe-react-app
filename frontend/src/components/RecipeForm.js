@@ -11,8 +11,8 @@ const RecipeForm = () => {
     title: '',
     category: '',
     prepTime: '',
-    difficulty: 'Facile', // Valeur par défaut
-    rating: 1, // Valeur par défaut
+    difficulty: 'Facile',
+    rating: 1,
     image: ''
   });
 
@@ -97,7 +97,7 @@ const RecipeForm = () => {
         <input type="text" name="category" value={recipe.category} onChange={handleChange} required />
       </label>
 
-      {/* Liste des ingrédients */}
+
       <label>
         Ingrédients :
         <input
@@ -114,7 +114,6 @@ const RecipeForm = () => {
         ))}
       </ul>
 
-      {/* Liste des étapes */}
       <label>
         Étapes :
         <input
