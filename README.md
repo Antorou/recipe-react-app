@@ -3,6 +3,6 @@ Training myself with  new technologies
 
 
 ## Technologies Used
-Frontend: React
-Backend: Node.js
-Database: MongoDB
+1. Frontend: React
+2. Backend: Node.js
+3. Database: MongoDB
